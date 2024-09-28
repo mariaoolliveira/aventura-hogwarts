@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura em Hogwarts</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/corvo.png" alt="">
+            <p>Estava sentado na mesa da cozinha, comendo um pedaço de pão. A casa estava quieta, exceto pelo som distante da televisão. De repente, a porta da frente foi aberta com um estrondo e um corvo negro entrou voando, deixando um pergaminho dourado cair sobre a mesa.</p>
+            <button class="btn-proximo" data-proximo="1">Ler a carta</button>
+            <button class="btn-proximo" data-proximo="2">Jogar fora</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="">
+            <p>"Querido Sr. S/N, Temos o prazer de informar que você foi aceito na Escola de Magia e Bruxaria de Hogwarts. A partir de 1° de setembro, você começará uma nova jornada repleta de magia e aventuras. Atenciosamente Ministra de Magia, Profa. McGonagall.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para a plataforma 9 3/4</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.png" alt="">
+            <p>Você decide não ler a carta, e permance em sua casa, mas sempre se pergunta o que teria encontrado se houvesse lido a carta.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Com o coração batendo rápido, estava diante da parede entre as plataformas 9 e 10 na Estação de King's Cross. Você de repente pensou "Lembre-se, é só correr diretamente para a parede."</p>
+            <button class="btn-proximo" data-proximo="4">Correr até a parede</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Respirando profundamente, com um impulso decidido,você fecha os olhos e começa a correr. O frio do metal e o som do trem se aproximando envolviam seus sentidos.De repente, o mundo pareceu se transformar, você se encontra na Plataforma 9 3/4, onde o Expresso de Hogwarts estava majestoso e fumegante.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir em frente e conhecer Hogwarts</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5.png" alt="">
+            <p>Ao embarcar no trem, decide se sentar em um compartimento vazio. O som das rodas e os aromas do vagão começaram a te acalmar. Após um breve trajeto, o trem parou em frente ao castelo de Hogwarts. As janelas do vagão mostravam uma vista deslumbrante das torres e das paredes do castelo iluminadas pela luz da lua.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir a multidão de alunos</button>
+            <button class="btn-proximo" data-proximo="7">Seguir pelo castelo à direita</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/castelo.png" alt="">
+            <p>Você finalmente descobre a entrada para o Castelo de Hogwarts. Você entra e descobre um salão grande emisterioso, com o teto parecendo o céu...Finalmente você encontrou.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.png" alt="">
+            <p>Ao descer do trem, você decide não seguir a multidão de alunos. Pegou uma das pequena barcaças que o levariam através do lago encantado. O castelo se ergia diante de seus olhos, iluminado e mágico, refletindo nas águas escuras</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para o castelo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.png" alt="">
+            <p>A floresta á esquerda, lhe permite um acesso ao Castelo pelos fundos. Você decide ir por esse caminho, e encontra os fundos do castelo</p>
+            <button class="btn-proximo" data-proximo="9">Seguir em busca da porta dos fundos</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você encontra o fundo do castelo, mas ao explorar não encontra uma entrada.</p>
+            <button class="btn-proximo" data-proximo="6">Retornar e seguir a multidão de alunos</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
